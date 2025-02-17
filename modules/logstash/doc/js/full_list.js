@@ -179,10 +179,8 @@ function highlight() {
   });
 }
 
-/**
- * Expands the tree to the target element and its immediate
- * children.
- */
+/*** Expands the tree to the target element and its immediate
+* children. */
 function expandTo(path) {
   var $target = $(document.getElementById('object_' + path));
   $target.addClass('clicked');
